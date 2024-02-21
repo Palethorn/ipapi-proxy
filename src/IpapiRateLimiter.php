@@ -2,6 +2,9 @@
 
 namespace IpapiProxy;
 
+use DateInterval;
+use DateTime;
+use DateTimeZone;
 use Monolog\Logger;
 use IpapiProxy\Exception\LimitExceededException;
 use Symfony\Component\Cache\Adapter\AdapterInterface;
