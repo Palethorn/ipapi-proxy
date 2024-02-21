@@ -1,0 +1,9 @@
+<?php
+
+return [
+    'debug' => false,
+    'ipapi_request_limit' => 1000,
+    'log_dir' => <YOUR_LOG_DIR>,
+    'cache_dir' => <YOUR_CACHE_DIR>,
+    'ipapi_token' => <YOUR_IPAPI_TOKEN>,
+];
